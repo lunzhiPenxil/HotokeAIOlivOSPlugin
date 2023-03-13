@@ -1,0 +1,19 @@
+{
+    "name" : "机械降佛",
+    "author" : "lunzhiPenxil",
+    "namespace" : "HotokeAIOlivOSPlugin",
+    "info" : "使用 .hotoke 问题 格式，机械佛会回答您的问题",
+    "priority" : 30000,
+    "version" : "1.0.0",
+    "svn" : 1,
+    "compatible_svn" : 100,
+    "message_mode" : "olivos_string",
+    "support" : [
+        {
+            "sdk" : "all",
+            "platform" : "all",
+            "model" : "all"
+        }
+    ],
+    "menu_config": []
+}
