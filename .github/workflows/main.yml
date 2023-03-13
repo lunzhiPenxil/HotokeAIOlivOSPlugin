@@ -22,7 +22,7 @@ jobs:
       - name: Upload
         uses: actions/upload-artifact@v2
         with:
-          name: Artifacts
+          name: HotokeAIOlivOSPlugin
           path: ${{ env.PACK_NAME }}.opk
       - name: Release
         if: github.ref_type == 'tag'
